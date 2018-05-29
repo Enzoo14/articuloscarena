@@ -7,11 +7,11 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{F37C58C3-90C5-4C52-9316-4FA815831A45}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>ABM_Articulos.My.MyApplication</StartupObject>
+    <StartupObject>ABM_Articulos.Module1</StartupObject>
     <RootNamespace>ABM_Articulos</RootNamespace>
     <AssemblyName>ABM_Articulos</AssemblyName>
     <FileAlignment>512</FileAlignment>
-    <MyType>WindowsForms</MyType>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <OptionExplicit>On</OptionExplicit>
     <OptionCompare>Binary</OptionCompare>

@@ -52,7 +52,7 @@ Partial Class ArticulosGrid
         Me.DataGridView1.Location = New System.Drawing.Point(12, 12)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.ReadOnly = True
-        Me.DataGridView1.Size = New System.Drawing.Size(531, 150)
+        Me.DataGridView1.Size = New System.Drawing.Size(579, 150)
         Me.DataGridView1.TabIndex = 0
         '
         'Agregar
@@ -155,7 +155,7 @@ Partial Class ArticulosGrid
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(547, 297)
+        Me.ClientSize = New System.Drawing.Size(575, 297)
         Me.Controls.Add(Me.Salir)
         Me.Controls.Add(Me.Eliminar)
         Me.Controls.Add(Me.Modificar)

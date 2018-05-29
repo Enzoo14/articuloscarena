@@ -2,8 +2,7 @@
     Dim Descripcion_, Unidad_ As String
     Dim Stock_, Costo_, Utilidad_, Venta_ As Decimal
     Dim Codigo_, iva_ As Integer
-
-
+    Dim detalleiva_() As String = {"21,00%", "10,50%"}
 
     Public Property Descripcion() As String
 
@@ -82,6 +81,12 @@
         Get
             Venta_ = Costo_ * (1 + iva_ / 100) * (1 + Utilidad_ / 100)
             Return Venta_
+
+        End Get
+    End Property
+    Public ReadOnly Property detalleiva() As Array
+        Get
+            Return detalleiva_
 
         End Get
     End Property

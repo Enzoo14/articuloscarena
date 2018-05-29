@@ -185,6 +185,7 @@ Partial Class ArticuloForm
         'ComboBox2
         '
         Me.ComboBox2.FormattingEnabled = True
+        Me.ComboBox2.Items.AddRange(New Object() {"21%", "10.50%"})
         Me.ComboBox2.Location = New System.Drawing.Point(151, 205)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(121, 21)
